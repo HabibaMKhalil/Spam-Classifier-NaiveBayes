@@ -1,3 +1,5 @@
+markdown
+Copy
 # 📱 SMS Spam Classifier with Naive Bayes  
 *A real-time spam detection system deployed with Streamlit*  
 
@@ -26,16 +28,23 @@ Trained on the `sms_spam.csv` dataset containing labeled SMS messages:
 
 ## 🛠️ Installation  
 1. Clone the repository:  
+```bash
 git clone https://github.com/your-username/Spam-SMS-Classifier.git
-
-Install dependencies:
+```
+2.Install dependencies:
+bash
+Copy
 pip install -r requirements.txt
+
 
 ## 🎮 Usage
 Run the app locally:
-streamlit run strem.py
 
+bash
+Copy
+streamlit run strem.py
 Then:
+
 Type/paste a message in the text box
 
 Click Predict
@@ -58,7 +67,6 @@ Copy
 ├── sms_spam.csv         # Dataset
 ├── requirements.txt     # Dependencies
 └── spam.jpg             # App thumbnail
-
 ## 📈 Performance
 Model accuracy: ~98% (varies by test split)
 
