@@ -1,5 +1,3 @@
-markdown
-Copy
 # 📱 SMS Spam Classifier with Naive Bayes  
 *A real-time spam detection system deployed with Streamlit*  
 
