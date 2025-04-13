@@ -61,10 +61,10 @@ Connect your repository
 ## 📌 Project Structure
 Copy
 .
-├── strem.py             # Main application
-├── sms_spam.csv         # Dataset
-├── requirements.txt     # Dependencies
-└── spam.jpg             # App thumbnail
+├── strem.py             # Main application                                  
+├── sms_spam.csv         # Dataset                                     
+├── requirements.txt     # Dependencies                                          
+└── spam.jpg             # App thumbnail                              
 ## 📈 Performance
 Model accuracy: ~98% (varies by test split)
 
