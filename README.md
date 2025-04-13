@@ -29,10 +29,10 @@ Trained on the `sms_spam.csv` dataset containing labeled SMS messages:
 ```bash
 git clone https://github.com/your-username/Spam-SMS-Classifier.git
 ```
-2.Install dependencies:
-bash
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 
 ## 🎮 Usage
 Run the app locally:
@@ -56,12 +56,13 @@ Create new app in Streamlit Share
 
 Connect your repository
 
-## 📌 Project Structure                                        
-.                                    
+## 📌 Project Structure                                                                                               
 ├── strem.py             # Main application                                  
 ├── sms_spam.csv         # Dataset                                     
 ├── requirements.txt     # Dependencies                                          
-└── spam.jpg             # App thumbnail                              
+└── spam.jpg             # App thumbnail           
+
+
 ## 📈 Performance
 Model accuracy: ~98% (varies by test split)
 
