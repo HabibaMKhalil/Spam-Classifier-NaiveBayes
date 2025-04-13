@@ -31,7 +31,6 @@ git clone https://github.com/your-username/Spam-SMS-Classifier.git
 ```
 2.Install dependencies:
 bash
-Copy
 pip install -r requirements.txt
 
 
@@ -39,7 +38,6 @@ pip install -r requirements.txt
 Run the app locally:
 
 bash
-Copy
 streamlit run strem.py
 Then:
 
@@ -58,9 +56,8 @@ Create new app in Streamlit Share
 
 Connect your repository
 
-## 📌 Project Structure
-Copy
-.
+## 📌 Project Structure                                        
+.                                    
 ├── strem.py             # Main application                                  
 ├── sms_spam.csv         # Dataset                                     
 ├── requirements.txt     # Dependencies                                          
