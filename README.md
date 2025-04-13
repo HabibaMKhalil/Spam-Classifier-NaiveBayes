@@ -28,13 +28,14 @@ Trained on the `sms_spam.csv` dataset containing labeled SMS messages:
 
 ## 🛠️ Installation  
 1. Clone the repository:  
-```bash
+bash
 git clone https://github.com/your-username/Spam-SMS-Classifier.git
 Install dependencies:
 
 bash
 Copy
 pip install -r requirements.txt
+
 🎮 Usage
 Run the app locally:
 
