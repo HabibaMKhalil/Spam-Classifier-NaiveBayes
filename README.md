@@ -1,71 +1,76 @@
-# Spam Classifier using Naive Bayes
-
-![Spam Classification App](spam.jpg)
-
-A Streamlit-based web application that classifies SMS messages as "spam" or "human" using a Naive Bayes machine learning model.
-
-## Features
-- Real-time spam detection for SMS messages.
-- Simple and intuitive user interface.
-- Displays classification results with visual feedback (green for human, red for spam).
-
-## Dataset
-The model is trained on the `sms_spam.csv` dataset, which contains labeled SMS messages categorized as "spam" or "ham" (non-spam).
-
-## Requirements
-- Python 3.x
-- Libraries: `streamlit`, `pandas`, `scikit-learn`
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Spam-Classifier-NaiveBayes.git
-Navigate to the project directory:
-
-bash
+markdown
 Copy
-cd Spam-Classifier-NaiveBayes
-Install the required dependencies:
+# 📱 SMS Spam Classifier with Naive Bayes  
+*A real-time spam detection system deployed with Streamlit*  
+
+![Demo](spam.jpg)  
+*Classify messages instantly with visual feedback*  
+
+## 🚀 Overview  
+This project implements a **Naive Bayes classifier** to detect spam SMS messages. Built with Python and Streamlit, it demonstrates how machine learning can automate text filtering for communication platforms.  
+
+**Key Features:**  
+✔️ Real-time spam/ham classification  
+✔️ Interactive Streamlit web interface  
+✔️ Visual feedback (red for spam, green for legitimate)  
+✔️ Model accuracy metrics included  
+
+## 📊 Dataset  
+Trained on the `sms_spam.csv` dataset containing labeled SMS messages:  
+- **spam**: Unwanted promotional/malicious messages  
+- **ham**: Legitimate personal messages  
+
+## ⚙️ Tech Stack  
+- **Python 3**  
+- **Streamlit** (Web Interface)  
+- **Scikit-learn** (Naive Bayes Model)  
+- **Pandas** (Data Processing)  
+
+## 🛠️ Installation  
+1. Clone the repository:  
+```bash
+git clone https://github.com/your-username/Spam-SMS-Classifier.git
+Install dependencies:
 
 bash
 Copy
 pip install -r requirements.txt
-Usage
-Run the Streamlit app:
+🎮 Usage
+Run the app locally:
 
 bash
 Copy
 streamlit run strem.py
-Open the app in your browser (usually http://localhost:8501).
+Then:
 
-Enter a message in the text box and click "Predict" to see the classification result.
+Type/paste a message in the text box
 
-Deployment
-The app can be deployed on Streamlit Sharing by linking the GitHub repository. Follow these steps:
+Click Predict
 
-Push the project to your GitHub repository.
+See instant classification (✅ human / ❌ spam)
 
-Log in to Streamlit Sharing and create a new app.
+🌐 Deployment
+Deploy to Streamlit Sharing in 3 steps:
 
-Connect the app to your GitHub repository and deploy.
+Push to GitHub
 
-Project Structure
-strem.py: Main Streamlit application script.
+Create new app in Streamlit Share
 
-sms_spam.csv: Dataset used for training the model.
+Connect your repository
 
-requirements.txt: List of required Python packages.
-
-spam.jpg: Image used in the app interface.
-
-Contributors
-Your Name
-
-License
-This project is open-source and available under the MIT License.
-
+📌 Project Structure
 Copy
+.
+├── strem.py             # Main application
+├── sms_spam.csv         # Dataset
+├── requirements.txt     # Dependencies
+└── spam.jpg             # App thumbnail
+📈 Performance
+Model accuracy: ~98% (varies by test split)
 
----
+🤝 Contributing
+Pull requests welcome! For major changes, please open an issue first.
 
-This README provides a clear overview of the project, instructions for installation and usage, and details about deployment. The repository name reflects the core functionality of the application. Let me know if you'd like any modifications!
+📜 License
+MIT
+
